@@ -3,7 +3,7 @@ The `DataUri.Equals` method might incorrectly determine if two objects have the 
 
 ## Main
 
-This repository contains Sitecore Patch #96688, which replaces the default `onPublishEndAsync` index update strategy with a custom one that uses a fixed `DataUri.Equals` method.
+This repository contains Sitecore Patch #96688, which replaces default asynchronous index update strategies with patched ones and handles DataUri comparison issue.
 
 ## License
 
